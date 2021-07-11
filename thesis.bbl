@@ -1,0 +1,803 @@
+\begin{thebibliography}{100}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem{langmuir1928oscillations}
+\bibinfo{author}{Langmuir, I.}
+\newblock \bibinfo{title}{Oscillations in ionized gases}.
+\newblock \emph{\bibinfo{journal}{Proceedings of the National Academy of
+  Sciences of the United States of America}} \textbf{\bibinfo{volume}{14}},
+  \bibinfo{pages}{627} (\bibinfo{year}{1928}).
+
+\bibitem{bellan2008fundamentals}
+\bibinfo{author}{Bellan, P.~M.}
+\newblock \emph{\bibinfo{title}{Fundamentals of plasma physics}}
+  (\bibinfo{publisher}{Cambridge University Press}, \bibinfo{year}{2008}).
+
+\bibitem{de1986high}
+\bibinfo{author}{de~Groot, J.~J.} \& \bibinfo{author}{Van~Vliet, J.}
+\newblock \emph{\bibinfo{title}{The high-pressure sodium lamp}}
+  (\bibinfo{publisher}{Macmillan International Higher Education},
+  \bibinfo{year}{1986}).
+
+\bibitem{donnelly2013plasma}
+\bibinfo{author}{Donnelly, V.~M.} \& \bibinfo{author}{Kornblit, A.}
+\newblock \bibinfo{title}{Plasma etching: Yesterday, today, and tomorrow}.
+\newblock \emph{\bibinfo{journal}{Journal of Vacuum Science \& Technology A:
+  Vacuum, Surfaces, and Films}} \textbf{\bibinfo{volume}{31}},
+  \bibinfo{pages}{050825} (\bibinfo{year}{2013}).
+
+\bibitem{mukhovatov1971plasma}
+\bibinfo{author}{Mukhovatov, V.} \& \bibinfo{author}{Shafranov, V.}
+\newblock \bibinfo{title}{Plasma equilibrium in a tokamak}.
+\newblock \emph{\bibinfo{journal}{Nuclear Fusion}}
+  \textbf{\bibinfo{volume}{11}}, \bibinfo{pages}{605} (\bibinfo{year}{1971}).
+
+\bibitem{fisch1978confining}
+\bibinfo{author}{Fisch, N.~J.}
+\newblock \bibinfo{title}{Confining a tokamak plasma with rf-driven currents}.
+\newblock \emph{\bibinfo{journal}{Physical Review Letters}}
+  \textbf{\bibinfo{volume}{41}}, \bibinfo{pages}{873} (\bibinfo{year}{1978}).
+
+\bibitem{kwon2011overview}
+\bibinfo{author}{Kwon, M.} \emph{et~al.}
+\newblock \bibinfo{title}{Overview of kstar initial operation}.
+\newblock \emph{\bibinfo{journal}{Nuclear Fusion}}
+  \textbf{\bibinfo{volume}{51}}, \bibinfo{pages}{094006}
+  (\bibinfo{year}{2011}).
+
+\bibitem{huba1998nrl}
+\bibinfo{author}{Huba, J.~D.}
+\newblock \emph{\bibinfo{title}{NRL plasma formulary}}, vol.
+  \bibinfo{volume}{6790} (\bibinfo{publisher}{Naval Research Laboratory},
+  \bibinfo{year}{1998}).
+
+\bibitem{tsuda2000calculation}
+\bibinfo{author}{Tsuda, N.} \& \bibinfo{author}{Yamada, J.}
+\newblock \bibinfo{title}{Calculation of high-pressure argon plasma parameters
+  produced by excimer laser}.
+\newblock In \emph{\bibinfo{booktitle}{Physics and technology for steady state
+  plasmas}} (\bibinfo{year}{2000}).
+
+\bibitem{murillo2004strongly}
+\bibinfo{author}{Murillo, M.~S.}
+\newblock \bibinfo{title}{Strongly coupled plasma physics and high
+  energy-density matter}.
+\newblock \emph{\bibinfo{journal}{Physics of Plasmas}}
+  \textbf{\bibinfo{volume}{11}}, \bibinfo{pages}{2964--2971}
+  (\bibinfo{year}{2004}).
+
+\bibitem{harilal2004spatial}
+\bibinfo{author}{Harilal, S.~S.}
+\newblock \bibinfo{title}{Spatial and temporal evolution of argon sparks}.
+\newblock \emph{\bibinfo{journal}{Applied optics}}
+  \textbf{\bibinfo{volume}{43}}, \bibinfo{pages}{3931--3937}
+  (\bibinfo{year}{2004}).
+
+\bibitem{bataller2014blackbody}
+\bibinfo{author}{Bataller, A.}, \bibinfo{author}{Plateau, G.},
+  \bibinfo{author}{Kappus, B.} \& \bibinfo{author}{Putterman, S.}
+\newblock \bibinfo{title}{Blackbody emission from laser breakdown in
+  high-pressure gases}.
+\newblock \emph{\bibinfo{journal}{Physical review letters}}
+  \textbf{\bibinfo{volume}{113}}, \bibinfo{pages}{075001}
+  (\bibinfo{year}{2014}).
+
+\bibitem{bataller2016observation}
+\bibinfo{author}{Bataller, A.}, \bibinfo{author}{Putterman, S.},
+  \bibinfo{author}{Pree, S.} \& \bibinfo{author}{Koulakis, J.}
+\newblock \bibinfo{title}{Observation of shell structure, electronic screening,
+  and energetic limiting in sparks}.
+\newblock \emph{\bibinfo{journal}{Physical review letters}}
+  \textbf{\bibinfo{volume}{117}}, \bibinfo{pages}{085001}
+  (\bibinfo{year}{2016}).
+
+\bibitem{langin2019laser}
+\bibinfo{author}{Langin, T.~K.}, \bibinfo{author}{Gorman, G.~M.} \&
+  \bibinfo{author}{Killian, T.~C.}
+\newblock \bibinfo{title}{Laser cooling of ions in a neutral plasma}.
+\newblock \emph{\bibinfo{journal}{Science}} \textbf{\bibinfo{volume}{363}},
+  \bibinfo{pages}{61--64} (\bibinfo{year}{2019}).
+
+\bibitem{kroker2020ultrafast}
+\bibinfo{author}{Kroker, T.} \emph{et~al.}
+\newblock \bibinfo{title}{Ultrafast electron cooling in an expanding ultracold
+  plasma}.
+\newblock \emph{\bibinfo{journal}{arXiv preprint arXiv:2005.14009}}
+  (\bibinfo{year}{2020}).
+
+\bibitem{ichimaru1982strongly}
+\bibinfo{author}{Ichimaru, S.}
+\newblock \bibinfo{title}{Strongly coupled plasmas: high-density classical
+  plasmas and degenerate electron liquids}.
+\newblock \emph{\bibinfo{journal}{Reviews of Modern Physics}}
+  \textbf{\bibinfo{volume}{54}}, \bibinfo{pages}{1017} (\bibinfo{year}{1982}).
+
+\bibitem{rogers2013strongly}
+\bibinfo{author}{Rogers, F.~J.} \& \bibinfo{author}{Dewitt, H.~E.}
+\newblock \emph{\bibinfo{title}{Strongly Coupled Plasma Physics}}, vol.
+  \bibinfo{volume}{154} (\bibinfo{publisher}{Springer Science \& Business
+  Media}, \bibinfo{year}{2013}).
+
+\bibitem{kalman2013strongly}
+\bibinfo{author}{Kalman, G.} \& \bibinfo{author}{Carini, P.}
+\newblock \emph{\bibinfo{title}{Strongly coupled plasmas}},
+  vol.~\bibinfo{volume}{36} (\bibinfo{publisher}{Springer Science \& Business
+  Media}, \bibinfo{year}{2013}).
+
+\bibitem{ichimaru2012strongly}
+\bibinfo{author}{Ichimaru, S.}
+\newblock \emph{\bibinfo{title}{Strongly Coupled Plasma Physics}}
+  (\bibinfo{publisher}{Elsevier}, \bibinfo{year}{2012}).
+
+\bibitem{griem1962high}
+\bibinfo{author}{Griem, H.~R.}
+\newblock \bibinfo{title}{High-density corrections in plasma spectroscopy}.
+\newblock \emph{\bibinfo{journal}{Physical Review}}
+  \textbf{\bibinfo{volume}{128}}, \bibinfo{pages}{997} (\bibinfo{year}{1962}).
+
+\bibitem{ciricosta2012direct}
+\bibinfo{author}{Ciricosta, O.} \emph{et~al.}
+\newblock \bibinfo{title}{Direct measurements of the ionization potential
+  depression in a dense plasma}.
+\newblock \emph{\bibinfo{journal}{Physical review letters}}
+  \textbf{\bibinfo{volume}{109}}, \bibinfo{pages}{065002}
+  (\bibinfo{year}{2012}).
+
+\bibitem{huebner2014opacity}
+\bibinfo{author}{Huebner, W.~F.} \& \bibinfo{author}{Barfield, W.~D.}
+\newblock \emph{\bibinfo{title}{Opacity}} (\bibinfo{publisher}{Springer},
+  \bibinfo{year}{2014}).
+
+\bibitem{lee2021quasi}
+\bibinfo{author}{Lee, S.} \emph{et~al.}
+\newblock \bibinfo{title}{Quasi-equilibrium phase coexistence in single
+  component supercritical fluids}.
+\newblock \emph{\bibinfo{journal}{Nature communications}}
+  \bibinfo{pages}{Accepted} (\bibinfo{year}{2021}).
+
+\bibitem{vollath2008plasma}
+\bibinfo{author}{Vollath, D.}
+\newblock \bibinfo{title}{Plasma synthesis of nanopowders}.
+\newblock \emph{\bibinfo{journal}{Journal of Nanoparticle Research}}
+  \textbf{\bibinfo{volume}{10}}, \bibinfo{pages}{39--57}
+  (\bibinfo{year}{2008}).
+
+\bibitem{kramer2015cold}
+\bibinfo{author}{Kramer, A.} \emph{et~al.}
+\newblock \bibinfo{title}{Cold physical plasmas in the field of
+  hygiene--relevance, significance, and future applications}.
+\newblock \emph{\bibinfo{journal}{Plasma Processes and Polymers}}
+  \textbf{\bibinfo{volume}{12}}, \bibinfo{pages}{1410--1422}
+  (\bibinfo{year}{2015}).
+
+\bibitem{stauss2015review}
+\bibinfo{author}{Stauss, S.}, \bibinfo{author}{Muneoka, H.},
+  \bibinfo{author}{Urabe, K.} \& \bibinfo{author}{Terashima, K.}
+\newblock \bibinfo{title}{Review of electric discharge microplasmas generated
+  in highly fluctuating fluids: Characteristics and application to
+  nanomaterials synthesis}.
+\newblock \emph{\bibinfo{journal}{Physics of Plasmas}}
+  \textbf{\bibinfo{volume}{22}}, \bibinfo{pages}{057103}
+  (\bibinfo{year}{2015}).
+
+\bibitem{berche2009critical}
+\bibinfo{author}{Berche, B.}, \bibinfo{author}{Henkel, M.} \&
+  \bibinfo{author}{Kenna, R.}
+\newblock \bibinfo{title}{Critical phenomena: 150 years since {Cagniard} de la
+  {Tour}}.
+\newblock \emph{\bibinfo{journal}{Journal of Physical Studies}}
+  \textbf{\bibinfo{volume}{13}}, \bibinfo{pages}{3001} (\bibinfo{year}{2009}).
+
+\bibitem{knez2014industrial}
+\bibinfo{author}{Knez, {\v{Z}}.} \emph{et~al.}
+\newblock \bibinfo{title}{Industrial applications of supercritical fluids: A
+  review}.
+\newblock \emph{\bibinfo{journal}{Energy}} \textbf{\bibinfo{volume}{77}},
+  \bibinfo{pages}{235--243} (\bibinfo{year}{2014}).
+
+\bibitem{medina2012determination}
+\bibinfo{author}{Medina, I.}
+\newblock \bibinfo{title}{Determination of diffusion coefficients for
+  supercritical fluids}.
+\newblock \emph{\bibinfo{journal}{Journal of Chromatography A}}
+  \textbf{\bibinfo{volume}{1250}}, \bibinfo{pages}{124--140}
+  (\bibinfo{year}{2012}).
+
+\bibitem{sovova2012steps}
+\bibinfo{author}{Sovov{\'a}, H.}
+\newblock \bibinfo{title}{Steps of supercritical fluid extraction of natural
+  products and their characteristic times}.
+\newblock \emph{\bibinfo{journal}{The Journal of Supercritical Fluids}}
+  \textbf{\bibinfo{volume}{66}}, \bibinfo{pages}{73--79}
+  (\bibinfo{year}{2012}).
+
+\bibitem{lee2005polymer}
+\bibinfo{author}{Lee, L.~J.} \emph{et~al.}
+\newblock \bibinfo{title}{Polymer nanocomposite foams}.
+\newblock \emph{\bibinfo{journal}{Composites science and technology}}
+  \textbf{\bibinfo{volume}{65}}, \bibinfo{pages}{2344--2363}
+  (\bibinfo{year}{2005}).
+
+\bibitem{matson1987rapid}
+\bibinfo{author}{Matson, D.~W.}, \bibinfo{author}{Fulton, J.~L.},
+  \bibinfo{author}{Petersen, R.~C.} \& \bibinfo{author}{Smith, R.~D.}
+\newblock \bibinfo{title}{Rapid expansion of supercritical fluid solutions:
+  solute formation of powders, thin films, and fibers}.
+\newblock \emph{\bibinfo{journal}{Industrial \& engineering chemistry
+  research}} \textbf{\bibinfo{volume}{26}}, \bibinfo{pages}{2298--2306}
+  (\bibinfo{year}{1987}).
+
+\bibitem{duffey2005experimental}
+\bibinfo{author}{Duffey, R.~B.} \& \bibinfo{author}{Pioro, I.~L.}
+\newblock \bibinfo{title}{Experimental heat transfer of supercritical carbon
+  dioxide flowing inside channels (survey)}.
+\newblock \emph{\bibinfo{journal}{Nuclear Engineering and Design}}
+  \textbf{\bibinfo{volume}{235}}, \bibinfo{pages}{913--924}
+  (\bibinfo{year}{2005}).
+
+\bibitem{munshi2009supercritical}
+\bibinfo{author}{Munshi, P.} \& \bibinfo{author}{Bhaduri, S.}
+\newblock \bibinfo{title}{Supercritical co 2: a twenty-first century solvent
+  for the chemical industry.}
+\newblock \emph{\bibinfo{journal}{Current Science (00113891)}}
+  \textbf{\bibinfo{volume}{97}} (\bibinfo{year}{2009}).
+
+\bibitem{simeoni2010widom}
+\bibinfo{author}{Simeoni, G.} \emph{et~al.}
+\newblock \bibinfo{title}{The widom line as the crossover between liquid-like
+  and gas-like behaviour in supercritical fluids}.
+\newblock \emph{\bibinfo{journal}{Nature Physics}}
+  \textbf{\bibinfo{volume}{6}}, \bibinfo{pages}{503--507}
+  (\bibinfo{year}{2010}).
+
+\bibitem{gorelli2006liquidlike}
+\bibinfo{author}{Gorelli, F.}, \bibinfo{author}{Santoro, M.},
+  \bibinfo{author}{Scopigno, T.}, \bibinfo{author}{Krisch, M.} \&
+  \bibinfo{author}{Ruocco, G.}
+\newblock \bibinfo{title}{Liquidlike behavior of supercritical fluids}.
+\newblock \emph{\bibinfo{journal}{Physical review letters}}
+  \textbf{\bibinfo{volume}{97}}, \bibinfo{pages}{245702}
+  (\bibinfo{year}{2006}).
+
+\bibitem{banuti2015crossing}
+\bibinfo{author}{Banuti, D.}
+\newblock \bibinfo{title}{Crossing the widom-line--supercritical
+  pseudo-boiling}.
+\newblock \emph{\bibinfo{journal}{The Journal of Supercritical Fluids}}
+  \textbf{\bibinfo{volume}{98}}, \bibinfo{pages}{12--16}
+  (\bibinfo{year}{2015}).
+
+\bibitem{maxim2019visualization}
+\bibinfo{author}{Maxim, F.} \emph{et~al.}
+\newblock \bibinfo{title}{Visualization of supercritical water pseudo-boiling
+  at widom line crossover}.
+\newblock \emph{\bibinfo{journal}{Nature communications}}
+  \textbf{\bibinfo{volume}{10}}, \bibinfo{pages}{1--11} (\bibinfo{year}{2019}).
+
+\bibitem{pipich2018densification}
+\bibinfo{author}{Pipich, V.} \& \bibinfo{author}{Schwahn, D.}
+\newblock \bibinfo{title}{Densification of supercritical carbon dioxide
+  accompanied by droplet formation when passing the widom line}.
+\newblock \emph{\bibinfo{journal}{Physical review letters}}
+  \textbf{\bibinfo{volume}{120}}, \bibinfo{pages}{145701}
+  (\bibinfo{year}{2018}).
+
+\bibitem{pipich2020polymorphic}
+\bibinfo{author}{Pipich, V.} \& \bibinfo{author}{Schwahn, D.}
+\newblock \bibinfo{title}{Polymorphic phase transition in liquid and
+  supercritical carbon dioxide}.
+\newblock \emph{\bibinfo{journal}{Scientific reports}}
+  \textbf{\bibinfo{volume}{10}}, \bibinfo{pages}{1--9} (\bibinfo{year}{2020}).
+
+\bibitem{prescher2017experimental}
+\bibinfo{author}{Prescher, C.} \emph{et~al.}
+\newblock \bibinfo{title}{Experimental evidence of the frenkel line in
+  supercritical neon}.
+\newblock \emph{\bibinfo{journal}{Physical Review B}}
+  \textbf{\bibinfo{volume}{95}}, \bibinfo{pages}{134114}
+  (\bibinfo{year}{2017}).
+
+\bibitem{proctor2018liquid}
+\bibinfo{author}{Proctor, J.}
+\newblock \bibinfo{title}{Liquid mysteries}.
+\newblock \emph{\bibinfo{journal}{Physics World}}
+  \textbf{\bibinfo{volume}{31}}, \bibinfo{pages}{31} (\bibinfo{year}{2018}).
+
+\bibitem{bryk2017behavior}
+\bibinfo{author}{Bryk, T.} \emph{et~al.}
+\newblock \bibinfo{title}{Behavior of supercritical fluids across the ``frenkel
+  line''}.
+\newblock \emph{\bibinfo{journal}{The journal of physical chemistry letters}}
+  \textbf{\bibinfo{volume}{8}}, \bibinfo{pages}{4995--5001}
+  (\bibinfo{year}{2017}).
+
+\bibitem{ploetz2019gas}
+\bibinfo{author}{Ploetz, E.~A.} \& \bibinfo{author}{Smith, P.~E.}
+\newblock \bibinfo{title}{Gas or liquid? the supercritical behavior of pure
+  fluids}.
+\newblock \emph{\bibinfo{journal}{The Journal of Physical Chemistry B}}
+  \textbf{\bibinfo{volume}{123}}, \bibinfo{pages}{6554--6563}
+  (\bibinfo{year}{2019}).
+
+\bibitem{schienbein2018investigation}
+\bibinfo{author}{Schienbein, P.} \& \bibinfo{author}{Marx, D.}
+\newblock \bibinfo{title}{Investigation concerning the uniqueness of separatrix
+  lines separating liquidlike from gaslike regimes deep in the supercritical
+  phase of water with a focus on widom line concepts}.
+\newblock \emph{\bibinfo{journal}{Physical Review E}}
+  \textbf{\bibinfo{volume}{98}}, \bibinfo{pages}{022104}
+  (\bibinfo{year}{2018}).
+
+\bibitem{taylor1996supercritical}
+\bibinfo{author}{Taylor, L.~T.}
+\newblock \emph{\bibinfo{title}{Supercritical fluid extraction}}
+  (\bibinfo{publisher}{Wiley New York}, \bibinfo{year}{1996}).
+
+\bibitem{bellan2020high}
+\bibinfo{author}{Bellan, J.}
+\newblock \emph{\bibinfo{title}{High-Pressure Flows for Propulsion
+  Applications}} (\bibinfo{publisher}{American Institute of Aeronautics and
+  Astronautics, Inc.}, \bibinfo{year}{2020}).
+
+\bibitem{harstad2000all}
+\bibinfo{author}{Harstad, K.} \& \bibinfo{author}{Bellan, J.}
+\newblock \bibinfo{title}{An all-pressure fluid drop model applied to a binary
+  mixture: heptane in nitrogen}.
+\newblock \emph{\bibinfo{journal}{International Journal of Multiphase Flow}}
+  \textbf{\bibinfo{volume}{26}}, \bibinfo{pages}{1675--1706}
+  (\bibinfo{year}{2000}).
+
+\bibitem{linstorm2020nist}
+\bibinfo{author}{Linstrom, P.~J.} \& \bibinfo{author}{Mallard, W.~G.}
+\newblock \emph{\bibinfo{title}{NIST chemistry webbook, NIST standard reference
+  database number 69}} (\bibinfo{publisher}{National Institute of Standards and
+  Technology}, \bibinfo{address}{Gaithersburg MD}, \bibinfo{year}{2020}).
+
+\bibitem{banuti2017similarity}
+\bibinfo{author}{Banuti, D.}, \bibinfo{author}{Raju, M.} \&
+  \bibinfo{author}{Ihme, M.}
+\newblock \bibinfo{title}{Similarity law for widom lines and coexistence
+  lines}.
+\newblock \emph{\bibinfo{journal}{Physical Review E}}
+  \textbf{\bibinfo{volume}{95}}, \bibinfo{pages}{052120}
+  (\bibinfo{year}{2017}).
+
+\bibitem{hagena1981nucleation}
+\bibinfo{author}{Hagena, O.~F.}
+\newblock \bibinfo{title}{Nucleation and growth of clusters in expanding nozzle
+  flows}.
+\newblock \emph{\bibinfo{journal}{Surface Science}}
+  \textbf{\bibinfo{volume}{106}}, \bibinfo{pages}{101--116}
+  (\bibinfo{year}{1981}).
+
+\bibitem{chen2009pressure}
+\bibinfo{author}{Chen, G.}, \bibinfo{author}{Kim, B.}, \bibinfo{author}{Ahn,
+  B.} \& \bibinfo{author}{Kim, D.~E.}
+\newblock \bibinfo{title}{Pressure dependence of argon cluster size for
+  different nozzle geometries}.
+\newblock \emph{\bibinfo{journal}{Journal of Applied Physics}}
+  \textbf{\bibinfo{volume}{106}}, \bibinfo{pages}{053507}
+  (\bibinfo{year}{2009}).
+
+\bibitem{tao2016revisiting}
+\bibinfo{author}{Tao, Y.}, \bibinfo{author}{Hagmeijer, R.},
+  \bibinfo{author}{van~der Weide, E. T.~A.}, \bibinfo{author}{Bastiaens, H.~M.}
+  \& \bibinfo{author}{Boller, K.-J.}
+\newblock \bibinfo{title}{Revisiting argon cluster formation in a planar gas
+  jet for high-intensity laser matter interaction}.
+\newblock \emph{\bibinfo{journal}{Journal of Applied Physics}}
+  \textbf{\bibinfo{volume}{119}}, \bibinfo{pages}{164901}
+  (\bibinfo{year}{2016}).
+
+\bibitem{fivsak2016rayleigh}
+\bibinfo{author}{Fi{\v{s}}{\'a}k, J.}, \bibinfo{author}{Krti{\v{c}}ka, J.},
+  \bibinfo{author}{Munzar, D.} \& \bibinfo{author}{Kub{\'a}t, J.}
+\newblock \bibinfo{title}{Rayleigh scattering in the atmospheres of hot stars}.
+\newblock \emph{\bibinfo{journal}{Astronomy \& Astrophysics}}
+  \textbf{\bibinfo{volume}{590}}, \bibinfo{pages}{A95} (\bibinfo{year}{2016}).
+
+\bibitem{hulst1981light}
+\bibinfo{author}{Hulst, H.~C.} \& \bibinfo{author}{van~de Hulst, H.~C.}
+\newblock \emph{\bibinfo{title}{Light scattering by small particles}}
+  (\bibinfo{publisher}{Courier Corporation}, \bibinfo{year}{1981}).
+
+\bibitem{howell2020thermal}
+\bibinfo{author}{Howell, J.~R.}, \bibinfo{author}{Meng{\"u}{\c{c}}, M.~P.},
+  \bibinfo{author}{Daun, K.} \& \bibinfo{author}{Siegel, R.}
+\newblock \emph{\bibinfo{title}{Thermal radiation heat transfer}}
+  (\bibinfo{publisher}{CRC press}, \bibinfo{year}{2020}).
+
+\bibitem{hanna2010equation}
+\bibinfo{author}{Hanna, G.} \& \bibinfo{author}{McCluskey, M.}
+\newblock \bibinfo{title}{Equation of state and refractive index of argon at
+  high pressure by confocal microscopy}.
+\newblock \emph{\bibinfo{journal}{Physical Review B}}
+  \textbf{\bibinfo{volume}{81}}, \bibinfo{pages}{132104}
+  (\bibinfo{year}{2010}).
+
+\bibitem{einstein1956investigations}
+\bibinfo{author}{Einstein, A.}
+\newblock \bibinfo{title}{Investigations on the theory of the brownian movement
+  (translated by ad cowper) dover publ}.
+\newblock \emph{\bibinfo{journal}{New York}}  (\bibinfo{year}{1956}).
+
+\bibitem{chapman1990mathematical}
+\bibinfo{author}{Chapman, S.} \& \bibinfo{author}{Cowling, T.~G.}
+\newblock \emph{\bibinfo{title}{The mathematical theory of non-uniform gases:
+  an account of the kinetic theory of viscosity, thermal conduction and
+  diffusion in gases}} (\bibinfo{publisher}{Cambridge university press},
+  \bibinfo{year}{1990}).
+
+\bibitem{ishiyama2004molecular}
+\bibinfo{author}{Ishiyama, T.}, \bibinfo{author}{Yano, T.} \&
+  \bibinfo{author}{Fujikawa, S.}
+\newblock \bibinfo{title}{Molecular dynamics study of kinetic boundary
+  condition at an interface between argon vapor and its condensed phase}.
+\newblock \emph{\bibinfo{journal}{Physics of Fluids}}
+  \textbf{\bibinfo{volume}{16}}, \bibinfo{pages}{2899--2906}
+  (\bibinfo{year}{2004}).
+
+\bibitem{julin2013mass}
+\bibinfo{author}{Julin, J.} \emph{et~al.}
+\newblock \bibinfo{title}{Mass accommodation of water: Bridging the gap between
+  molecular dynamics simulations and kinetic condensation models}.
+\newblock \emph{\bibinfo{journal}{The Journal of Physical Chemistry A}}
+  \textbf{\bibinfo{volume}{117}}, \bibinfo{pages}{410--420}
+  (\bibinfo{year}{2013}).
+
+\bibitem{stanton2016ionic}
+\bibinfo{author}{Stanton, L.~G.} \& \bibinfo{author}{Murillo, M.~S.}
+\newblock \bibinfo{title}{Ionic transport in high-energy-density matter}.
+\newblock \emph{\bibinfo{journal}{Physical Review E}}
+  \textbf{\bibinfo{volume}{93}}, \bibinfo{pages}{043203}
+  (\bibinfo{year}{2016}).
+
+\bibitem{cartier2020planetary}
+\bibinfo{author}{Cartier, K.}
+\newblock \bibinfo{title}{Planetary {Lightning}: {Same} {Physics}, {Distant}
+  {Worlds}}.
+\newblock \emph{\bibinfo{journal}{Eos}} \textbf{\bibinfo{volume}{101}}
+  (\bibinfo{year}{2020}).
+
+\bibitem{remington2006experimental}
+\bibinfo{author}{Remington, B.~A.}, \bibinfo{author}{Drake, R.~P.} \&
+  \bibinfo{author}{Ryutov, D.~D.}
+\newblock \bibinfo{title}{Experimental astrophysics with high power lasers and
+  z pinches}.
+\newblock \emph{\bibinfo{journal}{Reviews of Modern Physics}}
+  \textbf{\bibinfo{volume}{78}}, \bibinfo{pages}{755} (\bibinfo{year}{2006}).
+
+\bibitem{dimonte2008molecular}
+\bibinfo{author}{Dimonte, G.} \& \bibinfo{author}{Daligault, J.}
+\newblock \bibinfo{title}{Molecular-dynamics simulations of electron-ion
+  temperature relaxation in a classical coulomb plasma}.
+\newblock \emph{\bibinfo{journal}{Physical review letters}}
+  \textbf{\bibinfo{volume}{101}}, \bibinfo{pages}{135001}
+  (\bibinfo{year}{2008}).
+
+\bibitem{zel2002physics}
+\bibinfo{author}{Zel'Dovich, Y.~B.} \& \bibinfo{author}{Raizer, Y.~P.}
+\newblock \emph{\bibinfo{title}{Physics of shock waves and high-temperature
+  hydrodynamic phenomena}} (\bibinfo{publisher}{Courier Corporation},
+  \bibinfo{year}{2002}).
+
+\bibitem{diedrich1987observation}
+\bibinfo{author}{Diedrich, F.}, \bibinfo{author}{Peik, E.},
+  \bibinfo{author}{Chen, J.}, \bibinfo{author}{Quint, W.} \&
+  \bibinfo{author}{Walther, H.}
+\newblock \bibinfo{title}{Observation of a phase transition of stored
+  laser-cooled ions}.
+\newblock \emph{\bibinfo{journal}{Physical review letters}}
+  \textbf{\bibinfo{volume}{59}}, \bibinfo{pages}{2931} (\bibinfo{year}{1987}).
+
+\bibitem{drewsen1998large}
+\bibinfo{author}{Drewsen, M.}, \bibinfo{author}{Brodersen, C.},
+  \bibinfo{author}{Hornek{\ae}r, L.}, \bibinfo{author}{Hangst, J.~S.} \&
+  \bibinfo{author}{Schifffer, J.}
+\newblock \bibinfo{title}{Large ion crystals in a linear paul trap}.
+\newblock \emph{\bibinfo{journal}{Physical Review Letters}}
+  \textbf{\bibinfo{volume}{81}}, \bibinfo{pages}{2878} (\bibinfo{year}{1998}).
+
+\bibitem{dubin1999trapped}
+\bibinfo{author}{Dubin, D.~H.} \& \bibinfo{author}{O'neil, T.}
+\newblock \bibinfo{title}{Trapped nonneutral plasmas, liquids, and crystals
+  (the thermal equilibrium states)}.
+\newblock \emph{\bibinfo{journal}{Reviews of Modern Physics}}
+  \textbf{\bibinfo{volume}{71}}, \bibinfo{pages}{87} (\bibinfo{year}{1999}).
+
+\bibitem{zubko2004interstellar}
+\bibinfo{author}{Zubko, V.}, \bibinfo{author}{Dwek, E.} \&
+  \bibinfo{author}{Arendt, R.~G.}
+\newblock \bibinfo{title}{Interstellar dust models consistent with extinction,
+  emission, and abundance constraints}.
+\newblock \emph{\bibinfo{journal}{The Astrophysical Journal Supplement Series}}
+  \textbf{\bibinfo{volume}{152}}, \bibinfo{pages}{211} (\bibinfo{year}{2004}).
+
+\bibitem{pollack1994composition}
+\bibinfo{author}{Pollack, J.~B.} \emph{et~al.}
+\newblock \bibinfo{title}{Composition and radiative properties of grains in
+  molecular clouds and accretion disks}.
+\newblock \emph{\bibinfo{journal}{The Astrophysical Journal}}
+  \textbf{\bibinfo{volume}{421}}, \bibinfo{pages}{615--639}
+  (\bibinfo{year}{1994}).
+
+\bibitem{mcclure2012probing}
+\bibinfo{author}{McClure, M.} \emph{et~al.}
+\newblock \bibinfo{title}{Probing dynamical processes in the planet-forming
+  region with dust mineralogy}.
+\newblock \emph{\bibinfo{journal}{The Astrophysical Journal Letters}}
+  \textbf{\bibinfo{volume}{759}}, \bibinfo{pages}{L10} (\bibinfo{year}{2012}).
+
+\bibitem{goertz1989dusty}
+\bibinfo{author}{Goertz, C.}
+\newblock \bibinfo{title}{Dusty plasmas in the solar system}.
+\newblock \emph{\bibinfo{journal}{Reviews of Geophysics}}
+  \textbf{\bibinfo{volume}{27}}, \bibinfo{pages}{271--292}
+  (\bibinfo{year}{1989}).
+
+\bibitem{davies1997detection}
+\bibinfo{author}{Davies, J.~K.} \emph{et~al.}
+\newblock \bibinfo{title}{The detection of water ice in comet hale-bopp}.
+\newblock \emph{\bibinfo{journal}{Icarus}} \textbf{\bibinfo{volume}{127}},
+  \bibinfo{pages}{238--245} (\bibinfo{year}{1997}).
+
+\bibitem{havnes1996first}
+\bibinfo{author}{Havnes, O.} \emph{et~al.}
+\newblock \bibinfo{title}{First detection of charged dust particles in the
+  earth's mesosphere}.
+\newblock \emph{\bibinfo{journal}{Journal of Geophysical Research: Space
+  Physics}} \textbf{\bibinfo{volume}{101}}, \bibinfo{pages}{10839--10847}
+  (\bibinfo{year}{1996}).
+
+\bibitem{clark2010plastic}
+\bibinfo{author}{Clark, D.~S.} \emph{et~al.}
+\newblock \bibinfo{title}{Plastic ablator ignition capsule design for the
+  national ignition facility}.
+\newblock \emph{\bibinfo{journal}{Physics of Plasmas}}
+  \textbf{\bibinfo{volume}{17}}, \bibinfo{pages}{052703}
+  (\bibinfo{year}{2010}).
+
+\bibitem{wang2017development}
+\bibinfo{author}{Wang, T.}, \bibinfo{author}{Du, K.}, \bibinfo{author}{He, Z.}
+  \& \bibinfo{author}{He, X.}
+\newblock \bibinfo{title}{Development of target fabrication for laser-driven
+  inertial confinement fusion at research center of laser fusion}.
+\newblock \emph{\bibinfo{journal}{High Power Laser Science and Engineering}}
+  \textbf{\bibinfo{volume}{5}} (\bibinfo{year}{2017}).
+
+\bibitem{van2012laser}
+\bibinfo{author}{Van~Gessel, A.}, \bibinfo{author}{Carbone, E.},
+  \bibinfo{author}{Bruggeman, P.} \& \bibinfo{author}{Van~der Mullen, J.}
+\newblock \bibinfo{title}{Laser scattering on an atmospheric pressure plasma
+  jet: disentangling rayleigh, raman and thomson scattering}.
+\newblock \emph{\bibinfo{journal}{Plasma Sources Science and Technology}}
+  \textbf{\bibinfo{volume}{21}}, \bibinfo{pages}{015003}
+  (\bibinfo{year}{2012}).
+
+\bibitem{bengoechea2005asymmetric}
+\bibinfo{author}{Bengoechea, J.}, \bibinfo{author}{Arag{\'o}n, C.} \&
+  \bibinfo{author}{Aguilera, J.}
+\newblock \bibinfo{title}{Asymmetric stark broadening of the fe i 538.34 nm
+  emission line in a laser induced plasma}.
+\newblock \emph{\bibinfo{journal}{Spectrochimica Acta Part B: Atomic
+  Spectroscopy}} \textbf{\bibinfo{volume}{60}}, \bibinfo{pages}{897--904}
+  (\bibinfo{year}{2005}).
+
+\bibitem{griem2012spectral}
+\bibinfo{author}{Griem, H.}
+\newblock \emph{\bibinfo{title}{Spectral line broadening by plasmas}}
+  (\bibinfo{publisher}{Elsevier}, \bibinfo{year}{2012}).
+
+\bibitem{potekhin2002electric}
+\bibinfo{author}{Potekhin, A.~Y.}, \bibinfo{author}{Chabrier, G.} \&
+  \bibinfo{author}{Gilles, D.}
+\newblock \bibinfo{title}{Electric microfield distributions in electron-ion
+  plasmas}.
+\newblock \emph{\bibinfo{journal}{Physical Review E}}
+  \textbf{\bibinfo{volume}{65}}, \bibinfo{pages}{036412}
+  (\bibinfo{year}{2002}).
+
+\bibitem{konjevic2002experimental}
+\bibinfo{author}{Konjevi{\'c}, N.}, \bibinfo{author}{Lesage, A.},
+  \bibinfo{author}{Fuhr, J.~R.} \& \bibinfo{author}{Wiese, W.~L.}
+\newblock \bibinfo{title}{Experimental stark widths and shifts for spectral
+  lines of neutral and ionized atoms (a critical review of selected data for
+  the period 1989 through 2000)}.
+\newblock \emph{\bibinfo{journal}{Journal of Physical and Chemical Reference
+  Data}} \textbf{\bibinfo{volume}{31}}, \bibinfo{pages}{819--927}
+  (\bibinfo{year}{2002}).
+
+\bibitem{ivkovic2017stark}
+\bibinfo{author}{Ivkovi{\'c}, M.} \& \bibinfo{author}{Konjevi{\'c}, N.}
+\newblock \bibinfo{title}{Stark width and shift for electron number density
+  diagnostics of low temperature plasma: Application to silicon laser induced
+  breakdown spectroscopy}.
+\newblock \emph{\bibinfo{journal}{Spectrochimica Acta Part B: Atomic
+  Spectroscopy}} \textbf{\bibinfo{volume}{131}}, \bibinfo{pages}{79--92}
+  (\bibinfo{year}{2017}).
+
+\bibitem{kramida2020nist}
+\bibinfo{author}{Kramida, A.}, \bibinfo{author}{Ralchenko, Y.} \&
+  \bibinfo{author}{Reader, J.}
+\newblock \emph{\bibinfo{title}{NIST Atomic Spectra Database, NIST Standard
+  Reference Database number 78}} (\bibinfo{publisher}{National Institute of
+  Standards and Technology}, \bibinfo{address}{Gaithersburg MD},
+  \bibinfo{year}{2020}).
+
+\bibitem{tiesinga2021codata}
+\bibinfo{author}{Tiesinga, E.}, \bibinfo{author}{Mohr, P.~J.},
+  \bibinfo{author}{Newell, D.~B.} \& \bibinfo{author}{Taylor, B.~N.}
+\newblock \bibinfo{title}{Codata recommended values of the fundamental physical
+  constants: 2018}.
+\newblock \emph{\bibinfo{journal}{Reviews of Modern Physics}}
+  \textbf{\bibinfo{volume}{93}}, \bibinfo{pages}{025010}
+  (\bibinfo{year}{2021}).
+
+\bibitem{saleh2019fundamentals}
+\bibinfo{author}{Saleh, B.~E.} \& \bibinfo{author}{Teich, M.~C.}
+\newblock \emph{\bibinfo{title}{Fundamentals of photonics}}
+  (\bibinfo{publisher}{john Wiley \& sons}, \bibinfo{year}{2019}).
+
+\bibitem{seaton1959radiative}
+\bibinfo{author}{Seaton, M.}
+\newblock \bibinfo{title}{Radiative recombination of hydrogenic ions}.
+\newblock \emph{\bibinfo{journal}{Monthly Notices of the Royal Astronomical
+  Society}} \textbf{\bibinfo{volume}{119}}, \bibinfo{pages}{81--89}
+  (\bibinfo{year}{1959}).
+
+\bibitem{karzas1961electron}
+\bibinfo{author}{Karzas, W.} \& \bibinfo{author}{Latter, R.}
+\newblock \bibinfo{title}{Electron radiative transitions in a coulomb field.}
+\newblock \emph{\bibinfo{journal}{The Astrophysical Journal Supplement Series}}
+  \textbf{\bibinfo{volume}{6}}, \bibinfo{pages}{167} (\bibinfo{year}{1961}).
+
+\bibitem{nahar1997electron}
+\bibinfo{author}{Nahar, S.~N.} \& \bibinfo{author}{Pradhan, A.~K.}
+\newblock \bibinfo{title}{Electron-ion recombination rate coefficients,
+  photoionization cross sections, and ionization fractions for astrophysically
+  abundant elements. i. carbon and nitrogen}.
+\newblock \emph{\bibinfo{journal}{The Astrophysical Journal Supplement Series}}
+  \textbf{\bibinfo{volume}{111}}, \bibinfo{pages}{339} (\bibinfo{year}{1997}).
+
+\bibitem{duzy1980photoionization}
+\bibinfo{author}{Duzy, C.} \& \bibinfo{author}{Hyman, H.}
+\newblock \bibinfo{title}{Photoionization of excited rare-gas atoms}.
+\newblock \emph{\bibinfo{journal}{Physical Review A}}
+  \textbf{\bibinfo{volume}{22}}, \bibinfo{pages}{1878} (\bibinfo{year}{1980}).
+
+\bibitem{lee2017situ}
+\bibinfo{author}{Lee, S.}, \bibinfo{author}{Nam, W.~J.}, \bibinfo{author}{Lee,
+  J.~K.} \& \bibinfo{author}{Yun, G.}
+\newblock \bibinfo{title}{In situ impedance measurement of microwave
+  atmospheric pressure plasma}.
+\newblock \emph{\bibinfo{journal}{Plasma Sources Science and Technology}}
+  \textbf{\bibinfo{volume}{26}}, \bibinfo{pages}{045004}
+  (\bibinfo{year}{2017}).
+
+\bibitem{nam2017asymmetric}
+\bibinfo{author}{Nam, W.~J.}, \bibinfo{author}{Lee, S.},
+  \bibinfo{author}{Jeong, S.~Y.}, \bibinfo{author}{Lee, J.~K.} \&
+  \bibinfo{author}{Yun, G.~S.}
+\newblock \bibinfo{title}{Asymmetric frequency dependence of plasma jet
+  formation in resonator electrode}.
+\newblock \emph{\bibinfo{journal}{The European Physical Journal D}}
+  \textbf{\bibinfo{volume}{71}}, \bibinfo{pages}{1--5} (\bibinfo{year}{2017}).
+
+\bibitem{tendero2006atmospheric}
+\bibinfo{author}{Tendero, C.}, \bibinfo{author}{Tixier, C.},
+  \bibinfo{author}{Tristant, P.}, \bibinfo{author}{Desmaison, J.} \&
+  \bibinfo{author}{Leprince, P.}
+\newblock \bibinfo{title}{Atmospheric pressure plasmas: A review}.
+\newblock \emph{\bibinfo{journal}{Spectrochimica Acta Part B: Atomic
+  Spectroscopy}} \textbf{\bibinfo{volume}{61}}, \bibinfo{pages}{2--30}
+  (\bibinfo{year}{2006}).
+
+\bibitem{lu2016reactive}
+\bibinfo{author}{Lu, X.} \emph{et~al.}
+\newblock \bibinfo{title}{Reactive species in non-equilibrium
+  atmospheric-pressure plasmas: Generation, transport, and biological effects}.
+\newblock \emph{\bibinfo{journal}{Physics Reports}}
+  \textbf{\bibinfo{volume}{630}}, \bibinfo{pages}{1--84}
+  (\bibinfo{year}{2016}).
+
+\bibitem{graves2014low}
+\bibinfo{author}{Graves, D.~B.}
+\newblock \bibinfo{title}{Low temperature plasma biomedicine: A tutorial
+  review}.
+\newblock \emph{\bibinfo{journal}{Physics of Plasmas}}
+  \textbf{\bibinfo{volume}{21}}, \bibinfo{pages}{080901}
+  (\bibinfo{year}{2014}).
+
+\bibitem{sera2008germination}
+\bibinfo{author}{Sera, B.}, \bibinfo{author}{Stran{\'a}k, V.},
+  \bibinfo{author}{Ser{\`y}, M.}, \bibinfo{author}{Tich{\`y}, M.} \&
+  \bibinfo{author}{Spatenka, P.}
+\newblock \bibinfo{title}{Germination of chenopodium album in response to
+  microwave plasma treatment}.
+\newblock \emph{\bibinfo{journal}{Plasma Science and Technology}}
+  \textbf{\bibinfo{volume}{10}}, \bibinfo{pages}{506} (\bibinfo{year}{2008}).
+
+\bibitem{kuo2007fan}
+\bibinfo{author}{Kuo, S.~P.}, \bibinfo{author}{Popovic, S.},
+  \bibinfo{author}{Tarasenko, O.}, \bibinfo{author}{Rubinraut, M.} \&
+  \bibinfo{author}{Raskovic, M.}
+\newblock \bibinfo{title}{Fan-shaped microwave plasma for mail
+  decontamination}.
+\newblock \emph{\bibinfo{journal}{Plasma Sources Science and Technology}}
+  \textbf{\bibinfo{volume}{16}}, \bibinfo{pages}{581} (\bibinfo{year}{2007}).
+
+\bibitem{lieberman2005principles}
+\bibinfo{author}{Lieberman, M.~A.} \& \bibinfo{author}{Lichtenberg, A.~J.}
+\newblock \emph{\bibinfo{title}{Principles of plasma discharges and materials
+  processing}} (\bibinfo{publisher}{John Wiley \& Sons}, \bibinfo{year}{2005}).
+
+\bibitem{blackwell2005measurement}
+\bibinfo{author}{Blackwell, D.~D.}, \bibinfo{author}{Walker, D.~N.} \&
+  \bibinfo{author}{Amatucci, W.~E.}
+\newblock \bibinfo{title}{Measurement of absolute electron density with a
+  plasma impedance probe}.
+\newblock \emph{\bibinfo{journal}{Review of Scientific Instruments}}
+  \textbf{\bibinfo{volume}{76}}, \bibinfo{pages}{023503}
+  (\bibinfo{year}{2005}).
+
+\bibitem{iza2005split}
+\bibinfo{author}{Iza, F.} \& \bibinfo{author}{Hopwood, J.}
+\newblock \bibinfo{title}{Split-ring resonator microplasma: microwave model,
+  plasma impedance and power efficiency}.
+\newblock \emph{\bibinfo{journal}{Plasma Sources Science and Technology}}
+  \textbf{\bibinfo{volume}{14}}, \bibinfo{pages}{397} (\bibinfo{year}{2005}).
+
+\bibitem{choi2009microwave}
+\bibinfo{author}{Choi, J.}, \bibinfo{author}{Iza, F.}, \bibinfo{author}{Do,
+  H.}, \bibinfo{author}{Lee, J.} \& \bibinfo{author}{Cho, M.}
+\newblock \bibinfo{title}{Microwave-excited atmospheric-pressure microplasmas
+  based on a coaxial transmission line resonator}.
+\newblock \emph{\bibinfo{journal}{Plasma Sources Science and Technology}}
+  \textbf{\bibinfo{volume}{18}}, \bibinfo{pages}{025029}
+  (\bibinfo{year}{2009}).
+
+\bibitem{mckay2010excitation}
+\bibinfo{author}{McKay, K.}, \bibinfo{author}{Iza, F.} \&
+  \bibinfo{author}{Kong, M.}
+\newblock \bibinfo{title}{Excitation frequency effects on atmospheric-pressure
+  helium rf microplasmas: plasma density, electron energy and plasma
+  impedance}.
+\newblock \emph{\bibinfo{journal}{The European Physical Journal D}}
+  \textbf{\bibinfo{volume}{60}}, \bibinfo{pages}{497--503}
+  (\bibinfo{year}{2010}).
+
+\bibitem{pozar2011microwave}
+\bibinfo{author}{Pozar, D.~M.}
+\newblock \emph{\bibinfo{title}{Microwave engineering}}
+  (\bibinfo{publisher}{John wiley \& sons}, \bibinfo{year}{2011}).
+
+\bibitem{park2010inactivation}
+\bibinfo{author}{Park, S.-J.} \emph{et~al.}
+\newblock \bibinfo{title}{Inactivation of s. mutans using an atmospheric plasma
+  driven by a palm-size-integrated microwave power module}.
+\newblock \emph{\bibinfo{journal}{IEEE Transactions on plasma science}}
+  \textbf{\bibinfo{volume}{38}}, \bibinfo{pages}{1956--1962}
+  (\bibinfo{year}{2010}).
+
+\bibitem{kang2011slit}
+\bibinfo{author}{Kang, S.} \emph{et~al.}
+\newblock \bibinfo{title}{Slit shaped microwave induced atmospheric pressure
+  plasma based on a parallel plate transmission line resonator}.
+\newblock \emph{\bibinfo{journal}{Journal of Physics D: Applied Physics}}
+  \textbf{\bibinfo{volume}{44}}, \bibinfo{pages}{435201}
+  (\bibinfo{year}{2011}).
+
+\bibitem{lee2015self}
+\bibinfo{author}{Lee, H.}, \bibinfo{author}{Kim, M.}, \bibinfo{author}{Won,
+  I.}, \bibinfo{author}{Yun, G.} \& \bibinfo{author}{Lee, J.}
+\newblock \bibinfo{title}{Self-prevention of instability in a low-power
+  microwave ar plasma jet for biomedical applications}.
+\newblock \emph{\bibinfo{journal}{Journal of Physics D: Applied Physics}}
+  \textbf{\bibinfo{volume}{48}}, \bibinfo{pages}{155203}
+  (\bibinfo{year}{2015}).
+
+\end{thebibliography}

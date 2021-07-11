@@ -1,0 +1,47 @@
+\contentsline {chapter}{\rmfamily {\hbox to\@tempdima {I.\hfil }}Introduction }{1}{chapter.1}%
+\contentsline {chapter}{\rmfamily {\hbox to\@tempdima {II.\hfil }}Quasi-equilibrium phase coexisting supercritical fluid }{8}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Inhomogeneity in supercritical phase}{9}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Experimental apparatus and conditions}{11}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Formation of droplets and clusters}{12}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Temperature drop of expanding fluids}{13}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Number density of droplets}{18}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Lifetime of droplets}{19}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Existence of clusters}{20}{subsection.2.3.4}%
+\contentsline {section}{\numberline {2.4}Brownian motion analysis}{23}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Droplet size}{23}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Viscosity correction for a clustered medium}{25}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Size distribution}{27}{subsection.2.4.3}%
+\contentsline {section}{\numberline {2.5}Modified evaporation model}{29}{section.2.5}%
+\contentsline {chapter}{\rmfamily {\hbox to\@tempdima {III.\hfil }}Strongly coupled plasma }{32}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Physical regimes}{32}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Assumptions for ideal plasma}{33}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Failure of Debye shielding}{37}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Electron-ion collision}{39}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Experimental implementations}{41}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}High-pressure gas discharges}{41}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Laser-cooled trapped ions}{42}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Dusty plasmas}{43}{subsection.3.3.3}%
+\contentsline {chapter}{\rmfamily {\hbox to\@tempdima {IV.\hfil }}Charge and energy confinement }{45}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Experimental apparatus and conditions}{46}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Characteristics of the plasma discharges}{48}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Characteristics of the plasma discharges}{54}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Potential lowering}{60}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Medium effect on plasma}{62}{section.4.5}%
+\contentsline {chapter}{\rmfamily {\hbox to\@tempdima {V.\hfil }}Conclusion }{64}{chapter.5}%
+\contentsline {chapter}{\rmfamily Appendix \rmfamily {\hbox to\@tempdima {A.\hfil }}Constants and parameters }{67}{appendix.1.A}%
+\contentsline {chapter}{\rmfamily Appendix \rmfamily {\hbox to\@tempdima {B.\hfil }}High-pressure chamber system }{69}{appendix.1.B}%
+\contentsline {section}{\numberline {B.1}Modularized system}{69}{section.1.B.1}%
+\contentsline {section}{\numberline {B.2}Chamber leak test}{72}{section.1.B.2}%
+\contentsline {chapter}{\rmfamily Appendix \rmfamily {\hbox to\@tempdima {C.\hfil }}Droplet tracking }{73}{appendix.1.C}%
+\contentsline {section}{\numberline {C.1}Laser scattering}{73}{section.1.C.1}%
+\contentsline {section}{\numberline {C.2}Particle tracking code}{73}{section.1.C.2}%
+\contentsline {chapter}{\rmfamily Appendix \rmfamily {\hbox to\@tempdima {D.\hfil }}Experimental sequences }{76}{appendix.1.D}%
+\contentsline {chapter}{\rmfamily Appendix \rmfamily {\hbox to\@tempdima {E.\hfil }}Laser pulse energy measurement }{79}{appendix.1.E}%
+\contentsline {chapter}{\rmfamily Appendix \rmfamily {\hbox to\@tempdima {F.\hfil }}Recombination continuum }{82}{appendix.1.F}%
+\contentsline {chapter}{\rmfamily Appendix \rmfamily {\hbox to\@tempdima {G.\hfil }}Electrical impedance measurement }{86}{appendix.1.G}%
+\contentsline {section}{\numberline {G.1}Atmospheric pressure microwave plasma}{86}{section.1.G.1}%
+\contentsline {section}{\numberline {G.2}Two-frequency diagnostics}{88}{section.1.G.2}%
+\contentsline {chapter}{\rmfamily Appendix \rmfamily {\hbox to\@tempdima {H.\hfil }}Numerics }{90}{appendix.1.H}%
+\contentsline {chapter}{\rmfamily {Summary (in Korean)}}{91}{section*.46}%
+\contentsline {chapter}{\rmfamily {References }}{94}{section*.47}%
+\contentsfinish 

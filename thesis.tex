@@ -1,0 +1,177 @@
+%%
+%% TeX:UTF-8
+%%
+%% POSTECH 학위논문양식 LaTeX용
+%%
+
+
+%% ----- postech-ucs.cls -----
+\documentclass[doctor,english,final,pdfdoc]{style/postech-ucs}
+
+%% ----- Packages -----
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{comment}
+\usepackage{physics}
+\usepackage{anyfontsize}
+\usepackage{lipsum}
+% \usepackage{bbm}
+%\renewcommand{\thealgorithm}{}
+\newcommand{\argmax}{\operatornamewithlimits{arg\,max}}
+
+%% ----- Additional Packages 1: caption style -----
+\usepackage{caption} % caption label font bold
+\DeclareCaptionFont{myfont}{\sffamily}
+\captionsetup{font={myfont, small}, labelfont=bf}
+
+%% ----- Additional Packages 2: grouping citations -----
+\usepackage{cite} % group references with dash when three or more
+
+%% ----- Additional Packages 3: appendix in TOC -----
+\usepackage{titletoc} % table of contents
+\usepackage[titletoc]{appendix} % appendix in table of contents
+\renewcommand{\appendixname}{\rmfamily Appendix}
+%\renewcommand{\appendixname}{Appendix}
+
+%% ----- Additional Packages 4: verbatim styling -----
+\usepackage{fancyvrb}
+\definecolor{com}{RGB}{90, 146, 171}
+\definecolor{var}{RGB}{85, 135, 92}
+\definecolor{txt}{RGB}{101,101,101}
+\renewcommand{\theFancyVerbLine}{\textcolor{txt}{\scriptsize \arabic{FancyVerbLine}}}
+
+%% ----- Additional Packages 5: image within a line of text -----
+\usepackage{graphicx}
+\newcommand*{\img}[1]{%
+    \raisebox{-.1\baselineskip}{%
+        \includegraphics[
+        height=12pt,
+        keepaspectratio,
+        ]{#1}%
+    }%
+}
+
+%% ----- Additional Packages 6: footnote element inside the table -----
+\usepackage{tablefootnote}
+
+
+%% ----- Additional Packages 6: table font change for a selected column -----
+\usepackage{array}
+
+
+%% ----- Title of Thesis (논문 제목) -----
+\title[korean]{비균질 초임계 유체에서 생성된\linebreak 강결합 플라즈마}
+\title[english]{Strongly coupled plasma\linebreak in inhomogeneous supercritical fluid}
+
+
+%% ----- Author (저자 이름) -----
+\author[korean]{이}{승 택}
+\author[english]{Lee}{Seungtaek}
+
+
+%% ----- Advisor (지도교수 이름) -----
+\advisor[major]{윤 건 수}{Gunsu Yun}{nosign}
+
+
+%% ----- Department {학과이름}{학위종류} -----
+\department{PH}{}
+
+
+%% ----- Student ID (학번) -----
+\studentid{20152835}
+
+
+%% ----- Referee (심사위원) -----
+\referee[1]{Gunsu Yun}
+\referee[2]{Kyung Hwan Kim}
+\referee[3]{Jee Woo Park}
+\referee[4]{Jae-Hyung Jeon}
+\referee[5]{Jeong-Young Ji}
+
+
+%% ----- Approval Date (지도교수논문승인일) -----
+\approvaldate{2021}{06}{16}
+
+
+%% ----- Referee Date (심사위원논문심사일) -----
+\refereedate{2021}{06}{16}
+
+
+%% ----- Graduate Year (졸업년도) -----
+\gradyear{2021}
+
+
+%% ----- 본문 시작 -----
+\begin{document}
+
+
+% ----- Abstract (영문초록) -----
+\begin{abstract}
+    \input{chapters/abstract}
+\end{abstract}
+
+
+% ----- Table of Contents (목차) -----
+\setcounter{tocdepth}{1} % only up to chapter & section
+\tableofcontents % 목차 생성
+%\listoffigures % 그림목차 (List of Figures) 생성
+%\listoftables % 표목차 (List of Tables) 생성
+
+
+% ----- Chapters (본문) -----
+\input{chapters/chapter1} % chapter 1
+\input{chapters/chapter2} % chapter 2 
+\input{chapters/chapter3} % chapter 3
+\input{chapters/chapter4} % chapter 4
+\input{chapters/chapter5} % chapter 5
+
+
+% ----- Appendices -----
+\renewcommand{\thechapter}{\Alph{chapter}}
+\renewcommand{\thesection}{\Alph{chapter}.\arabic{section}} % ex) A.1
+\renewcommand{\thefigure}{\Alph{chapter}.\arabic{figure}} % ex) A.1
+\renewcommand{\thetable}{\Alph{chapter}.\arabic{table}} % ex) A.1
+\renewcommand{\theequation}{\Alph{chapter}.\arabic{equation}} % ex) A.1
+\begin{appendices}
+    \input{chapters/appendCh1} % appendix 1
+    \input{chapters/appendCh2} % appendix 2
+    \input{chapters/appendCh3} % appendix 3
+    \input{chapters/appendCh4} % appendix 4
+    \input{chapters/appendCh5} % appendix 5
+    \input{chapters/appendCh6} % appendix 6
+    \input{chapters/appendCh7} % appendix 7
+    \input{chapters/appendCh8} % appendix 8
+\end{appendices}
+
+
+%% ----- 한글요약문 시작 (Korean summary) -----
+\begin{summarykorean}
+    \input{endmatter/summary.tex}
+\end{summarykorean}
+
+
+%% ----- Refences -----
+\bibliographystyle{bibliography/naturemag} % Nature style
+\linespread{1.2}\selectfont % narrow linespread in reference
+\bibliography{bibliography/references}
+\linespread{1.8}\selectfont % restore the linespread
+
+
+%% ----- Acknowledgement -----
+\acknowledgement[korean]
+\input{endmatter/acknowledge.tex}
+
+
+%% ----- Curriculum Vitae -----
+\curriculumvitae[korean]
+\input{endmatter/cv.tex}
+
+
+%% ----- 마지막장 백색별지 -----
+\afterpage{\blankpage}
+
+
+%% ----- 본문 끝 -----
+\end{document}
