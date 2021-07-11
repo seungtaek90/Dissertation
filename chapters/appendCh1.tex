@@ -1,0 +1,62 @@
+%!TEX root = ../thesis.tex
+% appendix section 1
+
+\chapter{Constants and parameters}
+\label{sec:ap1}
+
+Below are a useful set of physical constants and fundamental plasma parameters with all quantities in SI units except the temperature in $\text{eV}$ \cite{huba1998nrl, bellan2008fundamentals, tiesinga2021codata}.
+
+\begingroup
+\renewcommand*{\arraystretch}{1.5}
+\begin{table}[h!]
+\footnotesize
+\centering
+\begin{tabular}{ll>{\scriptsize}ll>{\scriptsize}l}
+\hline \hline
+\multicolumn{1}{c}{Quantity} & \multicolumn{1}{c}{Symbol}                            & \multicolumn{1}{c}{Value}                                                                                & \multicolumn{1}{c}{Unit}                                            & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Relative std.\\ uncert. $u_r$\end{tabular}} \\ \hline \hline
+speed of light in vacuum     & $c$                        & $299\ 792\ 458$                                                                                                                        & $\text{m} \text{ s}^{-1}$       & exact                                                                                     \\
+Planck constant              & $h$                        & $6.626\ 070\ 15 \times 10^{-34}$                                                                                                       & $\text{J s}$                    & exact                                                                                     \\
+reduced Planck constant      & $\hbar$                    & $ \begin{aligned} & \left( h/2\pi \right) \\ &\approx\ 1.054\ 571\ 817 \cdots \times 10^-34 \end{aligned}$                                             & $\text{J s}$                    & exact                                                                                     \\
+elementary charge            & $e$                        & $1.602\ 176\ 634 \times 10^{-19}$                                                                                                      & $\text{C}$                      & exact                                                                                     \\
+vacuum permeability          & $\mu_0$                    & $1.256\ 637\ 062\ 12(19) \times10^{-6}$                                                                                                & $\text{N A}^{-2}$               & $1.5\times10^{-10}$                                                                       \\
+vacuum permittivity          & $\varepsilon_0$            & $8.854\ 187\ 8128(13) \times 10^{-12}$                                                                                                 & $\text{F m}^{-1}$               & $1.5\times10^{-10}$                                                                       \\
+electron mass                & $m_\text{e}$               & $9.109\ 383\ 7015(28) \times 10^{-31}$                                                                                                 & $\text{kg}$                     & $3.0\times10^{-10}$                                                                       \\
+proton mass                  & $m_\text{p}$               & $1.672\ 621\ 923\ 69(51) \times 10^{-27}$                                                                                              & $\text{kg}$                     & $3.1\times10^{-10}$                                                                       \\
+Boltzmann constant           & $k_\text{B}$               & $1.380\ 649 \times 10^{-23}$                                                                                                           & $\text{J K}^{-1}$               & exact                                                                                     \\
+Avogadro constant            & $N_\text{A}$               & $6.022\ 140\ 76 \times 10^{23}$                                                                                                        & $\text{mol}^{-1}$               & exact                                                                                     \\
+Stefan-Boltzman constant     & $\sigma$                   & $ \begin{aligned} &\left(\pi^2 / 60 \right) k_\text{B}^4/\hbar^3 c^2 \\ &\approx\ 5.670\ 374\ 419 \cdots \times 10^{-8} \end{aligned}$ & $\text{W m}^{-2} \text{K}^{-4}$ & exact                                                                                     \\
+atomic mass unit             & $u$                        & $1.660\ 539\ 066\ 60(50) \times 10^{-27}$                                                                                              & $\text{kg}$                     & $3.0\times 10^{-10}$                                                                     \\
+\hline \hline
+\end{tabular}
+\caption{Fundamental physical constants (2018 CODATA recommended values \cite{tiesinga2021codata}).}
+\label{table:physConst}
+\end{table}
+\endgroup
+
+\pagebreak
+
+\begingroup
+\renewcommand*{\arraystretch}{2}
+\begin{table}[h!]
+\footnotesize
+\centering
+\begin{tabular}{llll}
+\hline \hline
+\multicolumn{1}{c}{Quantity} & \multicolumn{1}{c}{Formula}                                                                & \multicolumn{1}{c}{Approximation} & \multicolumn{1}{c}{Units} \\ \hline \hline
+electron plasma frequency    & $f_{pe} = \dfrac{\omega_{pe}}{2\pi}=\dfrac{1}{2\pi}\sqrt{\dfrac{n_e e^2}{\varepsilon_0 m_e}}$ & $8.97 \sqrt{n_e}$                                     & $\text{Hz}$               \\
+ion plasma frequency \tablefootnote{$A$ is atomic mass and $Z$ is ion charge.}         & $f_{pi} = \dfrac{\omega_{pi}}{2\pi}=\dfrac{1}{2\pi}\sqrt{\dfrac{n_e e^2}{\varepsilon_0 m_i}}$ & $0.209 \ Z \sqrt{\dfrac{n_i}{A}}$                      & $\text{Hz}$               \\
+Debye length \tablefootnote{For species $\sigma$, particle charge $q_\sigma$ is assumed to have the electron charge $e$.}                 & $\lambda_\sigma = \sqrt{\dfrac{\varepsilon_0 k_\text{B} T_\sigma}{n_\sigma q_\sigma^2}}$    & $7.44 \times 10^{3} \sqrt{\dfrac{T_\sigma}{n_\sigma}}$ & $\text{m}$                \\
+plasma skin depth            & $\delta = \dfrac{c}{\omega_{pe}}$                                                           & $5.32 \times 10^6 \dfrac{1}{\sqrt{n_e}}$               & $\text{m}$                \\
+electron thermal speed       & $v_{Te} = \sqrt{\dfrac{2 k_\text{B} T_e}{m_e}}$                                             & $5.93 \times 10^{5} \sqrt{T_e}$                       & $\text{m s}^{-1}$         \\
+ion thermal speed            & $v_{Ti} = \sqrt{\dfrac{2 k_\text{B} T_i}{m_i}}$                                             & $1.38 \times 10^{4} \sqrt{\dfrac{T_i}{A}}$             & $\text{m s}^{-1}$        \\
+\hline \hline
+\end{tabular}
+\caption{Useful formulae and approximations for plasma parameters \cite{huba1998nrl, bellan2008fundamentals}.}
+\label{table:usefulFormula}
+\end{table}
+\endgroup
+
+
+
+
+

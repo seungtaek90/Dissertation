@@ -1,0 +1,75 @@
+%!TEX root = ../thesis.tex
+% appendix section 3
+
+\chapter{Droplet tracking}
+\label{sec:ap3}
+
+% -----
+\section{Laser scattering}
+\label{sec:ap3-1}
+
+A vertically polarized continuous He–Ne laser at $633 \text{ nm}$ with $5 \text{ mW}$ output power (Thorlabs HNL050LB) operates as the scattering source. Two lenses manipulate the beam profile of the incident laser: a plano-convex lens with a focal length of $50 \text{ mm}$ (Thorlabs LA4148) and a laser line generator (or Powell lens) with a fan angle of $23^{\circ}$ (Thorlabs FLG10FC-633). Right-angle scattered signals are captured by ICCD (Princeton Instruments PI-MAX4) with imaging optics. The imaging optics system enables 2.5X and 11X magnification through a single lens system with different optical lengths embedded into the lens tube to avoid ambient light (Thorlabs LA4148).
+
+% -----
+\section{Particle tracking code}
+\label{sec:ap3-2}
+
+Mathematica (Wolfram Research 12.0 Student Edition) is used to analyze the images and videos. Two built-in functions (ComponentMeasurements and ImageFeatureTrack) are utilized to determine the number density of droplets from the images and the Brownian motion of droplets from the videos.
+
+The code consists of the following sequence:
+\begin{enumerate}
+  
+  \item Import and adjust images to be easily recognized.
+  \begin{Verbatim}[commandchars=\\\{\},numbers=left]
+  \textcolor{com}{(* -- import file and image adjust each frame -- *)}
+  imgRescale[\textcolor{var}{raw_}]:=
+    Block[{\{\textcolor{com}{imgs}\}},
+      \textcolor{com}{imgs}=Map[Image@Rescale[\textcolor{var}{#},\{0, 65000\}]&,\textcolor{var}{raw}];
+      Return[\textcolor{com}{imgs}];
+    ];
+    
+  \textcolor{com}{(* -- image adjust -- *)}
+  imgAdjust[\textcolor{var}{img_Image}]:=
+    Block[\{\textcolor{com}{adj},\textcolor{com}{lpFilter},\textcolor{com}{tvFilter},\textcolor{com}{binarizedImage}\},
+      \textcolor{com}{adj}=ImageAdjust[\textcolor{var}{img},\{0\},\{.001,.07\}];
+      \textcolor{com}{lpFilter}=ImageMultiply[\textcolor{com}{adj},LowpassFilter[\textcolor{com}{adj},3]];
+      \textcolor{com}{tvFilter}=TotalVariationFilter[\textcolor{com}{lpFilter}];
+      \textcolor{com}{binarizedImage}=MaxDetect[\textcolor{com}{tvFilter},.3];
+      Return[\textcolor{com}{binarizedImage}];
+    ];
+  \end{Verbatim}
+  
+  \item Detect circular objects in each image.
+  \begin{Verbatim}[commandchars=\\\{\}, numbers=left]
+  \textcolor{com}{(* -- detect components -- *)}
+  centersDetect[\textcolor{var}{img_Image}]:=
+    Block[\{\textcolor{com}{centers}\},
+      \textcolor{com}{centers}=
+        ComponentMeasurements[
+          \textcolor{var}{img},\{\textcolor{txt}{"Centroid"}\},
+          \textcolor{var}{#AdjacentBorderCount}==0&&5<\textcolor{var}{#Area}<400&][[All,2,1]];
+      Return[\textcolor{com}{centers}];
+    ];
+  \end{Verbatim}
+  
+  \item Track the detected points over the frames
+  \begin{Verbatim}[commandchars=\\\{\}, numbers=left]
+  \textcolor{com}{(* -- particle speeds in succesive images -- *)}
+  displacement[\textcolor{var}{imgs_}]:=
+    Block[\{\textcolor{com}{diff},\textcolor{com}{initialPoints},\textcolor{com}{track},\textcolor{com}{resolution},\textcolor{com}{disp}\},
+      \textcolor{com}{diff}=Table[
+        \textcolor{com}{initialPoints}=centersDetect@\textcolor{var}{imgs}[[\textcolor{com}{i}]];
+        \textcolor{com}{track}=ImageFeatureTrack[\{\textcolor{var}{imgs}[[\textcolor{com}{i}]],\textcolor{var}{imgs}[[\textcolor{com}{i}+1]]\},
+          \textcolor{com}{initialPoints}];
+        Cases[Subtract@@\textcolor{com}{track},\{_Real,_Real\}]
+        ,\{i,Length[\textcolor{var}{imgs}]-1\}];
+      \textcolor{com}{resolution}=1.25; \textcolor{com}{(* [um/pixel] *)}
+      \textcolor{com}{disp}=Flatten[\textcolor{com}{diff},1]*\textcolor{com}{resolution}; \textcolor{com}{(* in [um/fr] *)}
+      Return[\textcolor{com}{disp}];
+    ];
+  \end{Verbatim}
+  
+\end{enumerate}
+
+
+
