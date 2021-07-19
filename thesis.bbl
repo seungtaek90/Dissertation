@@ -231,6 +231,13 @@
   research}} \textbf{\bibinfo{volume}{26}}, \bibinfo{pages}{2298--2306}
   (\bibinfo{year}{1987}).
 
+\bibitem{munshi2009supercritical}
+\bibinfo{author}{Munshi, P.} \& \bibinfo{author}{Bhaduri, S.}
+\newblock \bibinfo{title}{Supercritical co 2: a twenty-first century solvent
+  for the chemical industry.}
+\newblock \emph{\bibinfo{journal}{Current Science (00113891)}}
+  \textbf{\bibinfo{volume}{97}} (\bibinfo{year}{2009}).
+
 \bibitem{duffey2005experimental}
 \bibinfo{author}{Duffey, R.~B.} \& \bibinfo{author}{Pioro, I.~L.}
 \newblock \bibinfo{title}{Experimental heat transfer of supercritical carbon
@@ -238,13 +245,6 @@
 \newblock \emph{\bibinfo{journal}{Nuclear Engineering and Design}}
   \textbf{\bibinfo{volume}{235}}, \bibinfo{pages}{913--924}
   (\bibinfo{year}{2005}).
-
-\bibitem{munshi2009supercritical}
-\bibinfo{author}{Munshi, P.} \& \bibinfo{author}{Bhaduri, S.}
-\newblock \bibinfo{title}{Supercritical co 2: a twenty-first century solvent
-  for the chemical industry.}
-\newblock \emph{\bibinfo{journal}{Current Science (00113891)}}
-  \textbf{\bibinfo{volume}{97}} (\bibinfo{year}{2009}).
 
 \bibitem{simeoni2010widom}
 \bibinfo{author}{Simeoni, G.} \emph{et~al.}

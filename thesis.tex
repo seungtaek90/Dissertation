@@ -8,6 +8,7 @@
 %% ----- postech-ucs.cls -----
 \documentclass[doctor,english,final,pdfdoc]{style/postech-ucs}
 
+
 %% ----- Packages -----
 \usepackage{amsmath}
 \usepackage{enumitem}
@@ -31,9 +32,8 @@
 
 %% ----- Additional Packages 3: appendix in TOC -----
 \usepackage{titletoc} % table of contents
-\usepackage[titletoc]{appendix} % appendix in table of contents
-\renewcommand{\appendixname}{\rmfamily Appendix}
-%\renewcommand{\appendixname}{Appendix}
+\usepackage[toc]{appendix} % appendix in table of contents
+\renewcommand{\appendixtocname}{\rmfamily Appendices}
 
 %% ----- Additional Packages 4: verbatim styling -----
 \usepackage{fancyvrb}
@@ -55,7 +55,6 @@
 
 %% ----- Additional Packages 6: footnote element inside the table -----
 \usepackage{tablefootnote}
-
 
 %% ----- Additional Packages 6: table font change for a selected column -----
 \usepackage{array}
@@ -109,23 +108,26 @@
 
 % ----- Abstract (영문초록) -----
 \begin{abstract}
-    \input{chapters/abstract}
+    \input{frontmatter/abstract}
 \end{abstract}
 
 
 % ----- Table of Contents (목차) -----
 \setcounter{tocdepth}{1} % only up to chapter & section
-\tableofcontents % 목차 생성
-%\listoffigures % 그림목차 (List of Figures) 생성
-%\listoftables % 표목차 (List of Tables) 생성
+{
+    \hypersetup{linkcolor=black}
+    \tableofcontents % 목차 생성
+%    \listoffigures % 그림목차 (List of Figures) 생성
+%    \listoftables % 표목차 (List of Tables) 생성
+}
 
 
 % ----- Chapters (본문) -----
-\input{chapters/chapter1} % chapter 1
-\input{chapters/chapter2} % chapter 2 
-\input{chapters/chapter3} % chapter 3
-\input{chapters/chapter4} % chapter 4
-\input{chapters/chapter5} % chapter 5
+\input{chapters/chapter1}
+\input{chapters/chapter2}
+\input{chapters/chapter3}
+\input{chapters/chapter4}
+\input{chapters/chapter5}
 
 
 % ----- Appendices -----
@@ -135,14 +137,14 @@
 \renewcommand{\thetable}{\Alph{chapter}.\arabic{table}} % ex) A.1
 \renewcommand{\theequation}{\Alph{chapter}.\arabic{equation}} % ex) A.1
 \begin{appendices}
-    \input{chapters/appendCh1} % appendix 1
-    \input{chapters/appendCh2} % appendix 2
-    \input{chapters/appendCh3} % appendix 3
-    \input{chapters/appendCh4} % appendix 4
-    \input{chapters/appendCh5} % appendix 5
-    \input{chapters/appendCh6} % appendix 6
-    \input{chapters/appendCh7} % appendix 7
-    \input{chapters/appendCh8} % appendix 8
+    \input{chapters/appendCh1}
+    \input{chapters/appendCh2}
+    \input{chapters/appendCh3}
+    \input{chapters/appendCh4}
+    \input{chapters/appendCh5}
+    \input{chapters/appendCh6}
+    \input{chapters/appendCh7}
+    \input{chapters/appendCh8}
 \end{appendices}
 
 
@@ -154,14 +156,19 @@
 
 %% ----- Refences -----
 \bibliographystyle{bibliography/naturemag} % Nature style
+{
 \linespread{1.2}\selectfont % narrow linespread in reference
 \bibliography{bibliography/references}
-\linespread{1.8}\selectfont % restore the linespread
+}
 
 
 %% ----- Acknowledgement -----
 \acknowledgement[korean]
+\pagestyle{empty} % 이후 쪽 번호없음
+{
+\linespread{1.7}\selectfont % narrow linespread in reference
 \input{endmatter/acknowledge.tex}
+}
 
 
 %% ----- Curriculum Vitae -----
