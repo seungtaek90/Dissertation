@@ -1,12 +1,12 @@
 # Dissertation
 
-## Systems info.
+## System info.
 This work is done on the the following system.
 * iMac (Retina 5K, 27-inch, 2019)
 * 3.6 GHz 8-Core Intel Core i9
 * macOS Big Sur 11.3.1
 
-## Software versions
+## Versions of softwares
 The following versions of softwares are used.
 * TeXShop 4.64
 * BibDesk 1.8.3
