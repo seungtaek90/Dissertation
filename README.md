@@ -14,7 +14,7 @@ The following versions of softwares are used.
 * Affinity Designer 1.8.4
 
 ## Files missing
-Due to the limitation of the file size, there are some data are missing as listed below.
+Due to the size limitation, some data are missing, as listed below.
 * Dissertation/figures/ch2/phaseDiag/data/thermophysicalData.mx
 * Dissertation/figures/ch4/imaging/data/290/dense.mx
 * Dissertation/figures/ch4/imaging/data/290/dilute.mx
